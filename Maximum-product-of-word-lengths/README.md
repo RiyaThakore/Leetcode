@@ -2,6 +2,8 @@
 
 #### Example 1:
 
-Input: words = ["abcw","baz","foo","bar","xtfn","abcdef"]
-Output: 16
-Explanation: The two words can be "abcw", "xtfn".
+##### Input: <br>
+words = ["abcw","baz","foo","bar","xtfn","abcdef"] <br>
+##### Output: <br>
+16 <br>
+##### Explanation: The two words can be "abcw", "xtfn".
