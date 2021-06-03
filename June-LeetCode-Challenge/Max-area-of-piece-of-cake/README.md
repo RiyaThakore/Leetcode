@@ -1,24 +1,18 @@
-You are given an `m x n` binary matrix `grid`. An island is a group of 1's (representing land) connected *4-directionally* (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+Given a rectangular cake with height h and width w, and two arrays of integers `horizontalCuts` and `verticalCuts` where `horizontalCuts[i]` is the distance from the top of the rectangular cake to the ith horizontal cut and similarly, `verticalCuts[j]` is the distance from the left of the rectangular cake to the jth vertical cut.
 
-The `area` of an island is the number of cells with a value `1` in the island.
+Return the maximum area of a piece of cake after you cut at each horizontal and vertical position provided in the arrays `horizontalCuts` and `verticalCuts`. Since the answer can be a huge number, return this modulo 10^9 + 7.
 
-*Return the maximum area of an island in grid. If there is no island, return 0*.
+#### Example 1:
 
-### Input:
-grid = <br>
-[[0,0,1,0,0,0,0,1,0,0,0,0,0], <br>
-        [0,0,0,0,0,0,0,1,1,1,0,0,0], <br>
-        [0,1,1,0,1,0,0,0,0,0,0,0,0], <br>
-        [0,1,0,0,1,1,0,0,1,0,1,0,0], <br>
-        [0,1,0,0,1,1,0,0,1,1,1,0,0], <br>
-        [0,0,0,0,0,0,0,0,0,0,1,0,0], <br>
-        [0,0,0,0,0,0,0,1,1,1,0,0,0], <br>
-        [0,0,0,0,0,0,0,1,1,0,0,0,0]] <br>
+Input: <br>
+h = 5, w = 4, horizontalCuts = [1,2,4], verticalCuts = [1,3] <br>
 
-### Output:
-6
+Output: <br>
+4 <br>
 
-### Explanation:
-The answer is not 11, because the island must be connected 4-directionally.
+Explanation: <br>
+The figure above represents the given rectangular cake. Red lines are the horizontal and vertical cuts. After you cut the cake, the green piece of cake has the maximum area.
 
-
+(Updated) Result:
+It is important to pay attention to the details of answers especially regarding 'modulo 10^9 + 7'  <br>
+Time Complexity: O(n log n) + O(m log m) 
