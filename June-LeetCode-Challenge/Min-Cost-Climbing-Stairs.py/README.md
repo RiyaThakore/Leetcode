@@ -12,3 +12,12 @@ cost = [10,15,20]
 
 ### Explanation:
 Cheapest is: start on cost[1], pay that cost, and go to the top.
+
+<br>
+This is a classic Dynamic Programming problem: Bottom Up DP Approach
+<br><br>
+
+Complexity:
+
+Time: O(N), where N is number of element in cost.<br>
+Space: O(1)
