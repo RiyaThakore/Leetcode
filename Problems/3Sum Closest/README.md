@@ -7,6 +7,6 @@ Output: 2
 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 Update:
-Two pointer approach
-Time Complexity: O(n^2) (due to the outer and inner loops)
-Space Compplexity: O(log n) to O(n)
+Two pointer approach <br>
+Time Complexity: O(n^2) (due to the outer and inner loops) <br>
+Space Complexity: O(log n) to O(n) <br>
